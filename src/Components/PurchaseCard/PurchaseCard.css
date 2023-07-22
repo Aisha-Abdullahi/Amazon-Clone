@@ -1,0 +1,391 @@
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.mainpage-content{
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+
+.left-card {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  padding: 20px;
+  background-color:white;
+  border: 0.5px rgb(57, 56, 56);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  text-align: left;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.left-card p {
+  font-size: 12px;
+}
+.left-card a {
+  font-size: 12px;
+}
+.price {
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+.description p {
+  margin-bottom: 10px;
+}
+
+.more-info {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.more-info:hover {
+  color: darkred;
+  text-decoration: none;
+}
+
+.stock {
+  color: #008000;
+  margin-bottom: 10px;
+}
+
+.quantity {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.dropdown-toggle {
+  background-color: #e5e7ea;
+  color: black;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 5px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.dropdown-toggle:hover {
+  background-color: #9ea0a4;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  top: 100%;
+  left: 0;
+  width: 30%;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  padding: 10px 15px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.show {
+  display: block;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  background-color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f2f2f2;
+}
+.add-to-cart {
+  display: flex;
+  width: 260px;
+  padding: 10px 85px;
+  border: none;
+  background-color: #fad70c;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 45px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.add-to-cart:hover {
+  background-color: #ccae05;
+}
+
+.add-to-cart {
+  margin-right: 10px;
+}
+
+.buy-now {
+  display: flex;
+  width: 260px;
+  margin-top: 1%;
+  padding: 10px 100px;
+  border: none;
+  white-space: nowrap;
+  background-color: #f7a211;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 45px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+}
+
+.buy-now:hover {
+  background-color: #ce8507;
+}
+
+.secure {
+  text-decoration: none;
+  color: rgb(35, 148, 148);
+}
+
+.watch {
+  color: rgb(35, 148, 148);
+  text-decoration: none;
+}
+.watch:hover {
+  color: darkred;
+}
+.add-to-list-button {
+  display: inline-block;
+  width: 260px;
+  background-color: whitesmoke;
+  color: black;
+  border: 1px solid black;
+  font-size: 14px;
+  padding: 10px 100px;
+  border-radius: 4px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.add-to-list-button:hover {
+  background-color: rgb(215, 213, 213);
+}
+
+/* ////////////////////////////////////// */
+.smallimages {
+  position: sticky;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  size: 20px;
+  width: 20px;
+  height: auto;
+}
+
+.bigimages {
+  position: absolute;
+  left: 130px;
+  top: 20px;
+  height: 450px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+.smallimages button {
+  background: none;
+  border: none;
+  display: inline;
+  pointer-events: fill;
+}
+
+.bigimages::-webkit-scrollbar {
+  display: none;
+}
+
+.middlepart{
+  position: absolute;
+  right: 30%;
+  top: 20px;
+  left: 35%;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fmiddlepart{
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.secondmiddlepart{
+  border-top: 1px solid black;
+}
+#star{
+  color: orange;
+  border: darkorange;
+  font-size: larger;
+
+}
+
+.card-section {
+  margin: 20px 0;
+}
+
+.card-section-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.card-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card-image {
+  flex-basis: calc(16.667% - 10px);
+  position: relative;
+}
+
+.card-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.card-image-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: none;
+  color: black;
+  font-size: 12px;
+}
+
+.card-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card-list li {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.card-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+ 
+  text-decoration: none;
+  color:  rgb(7, 107, 124); ;
+  transition: color 0.2s ease;
+}
+
+.card-link:hover {
+  color:  rgb(199, 39, 39);;
+}
+
+.clink{
+  
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #333;
+
+}
+.clink:hover{
+  
+  background-color: #aeabab;
+}
+
+
+#cpt4{
+  position: absolute;
+}
+
+.inline{
+  display: inline
+}
+
+#link{
+  color: rgba(0,113,133,255);
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+  
+}
+
+#link :hover{
+  text-decoration: underline;
+}
+
+
+.text{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+}
+.card p{ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+li{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+i{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+label{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.list-price{
+  color: #333;
+}
+
+
+#h2itemname{
+  color: black;
+}
+
+#h2itemname:hover{
+  color: black;
+}
+
+#button-link{
+  text-decoration: none;
+  color: black;
+}
+#button-link:hover {
+  color: #333;
+}
